@@ -1,3 +1,10 @@
+<!-- 
+Name: Ryan Mills
+Date: 10/11/2024
+Filename: index.html
+HTML skeleton of the webpage -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,10 +15,13 @@
 </head>
 <body style="display: flex; flex-direction: column;">
   <h1>Pick-a-pet!</h1>
-  <img src="petImage.jpg" style="width:400px; margin-bottom: 50px;">
+  <img id="petImage" src="assets/petImage.jpg" style="width:400px; margin-bottom: 50px;">
   <label>Enter your age: <input type="number" id="ageInput"></label>
   <label>Do you want an indoor or outdoor pet? <input type="text" id="inOrOut"></label>
   <button style="width: 100px" id="recommend">Recommend a pet!</button>
-  <h4 id="recommendArea"></h4>
+  <h5 id="summaryAge" style="margin: 0; margin-top: 3em; padding: 0;"></h5>
+  <h5 id="summaryType" style="margin: 0; padding: 0;"></h5>
+  <h4 id="recommendArea" style="margin: 0; padding: 0;"></h4>
+  <p id="imageArea"></p>
 </body>
 </html>
